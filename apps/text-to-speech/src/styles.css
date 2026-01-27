@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#textInput {
+    width: 100%;
+    margin: auto;
+    resize: none;
+    background-color: yellowgreen;
+    outline: none;
+    border-radius: 0.5em;
+}
+
+#textInput:focus {
+    transform: scale(1.1);
+    transition: calc(0.1);
+}
+
+#speed {
+    width: 10%;
+    background-color: yellow;
+    border-radius: 0.5em;
+}
+
+#play, #pause, #stop {
+    width: 20%;
+    background-color: black;
+    border-radius: 0.5em;
+    color: white;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    gap: 1rem;
+    
+}
+
+#text-container{
+    display: flex;
+    width: 100%;
+   
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    gap:0.5rem
+}
